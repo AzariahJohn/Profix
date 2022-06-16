@@ -1,0 +1,11 @@
+.testi__container{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    scroll-snap-align: start;
+    color: white;
+    padding: 100px;
+}
+
+.texti__container{
+    
+}

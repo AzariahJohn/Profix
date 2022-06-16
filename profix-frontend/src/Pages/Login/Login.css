@@ -1,0 +1,85 @@
+.login__container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../Components/Main/backg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.card__title{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.inp{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.login__card{
+    background-color: grey;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+}
+
+.btn__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg__buttons{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00aaff;
+    color: #002436;
+    border: 1px solid #013955;
+}
+
+.btn__container{
+    background-color: grey;
+}
+
+.division{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(38, 38, 38);
+    font-family: sans-serif;
+}
+
+.line__right{
+    width: 80px;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    margin-left: 10px;
+}
+
+#lgin{
+    background-color: #013955;
+    color: white;
+}
+
+.line__right{
+    margin-right: 10px;
+}

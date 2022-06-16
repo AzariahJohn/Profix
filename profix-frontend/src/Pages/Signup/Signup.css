@@ -1,0 +1,64 @@
+.signup__error{
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgb(199, 64, 64);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup__success{
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgb(56, 163, 40);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inactive{
+    display: none;
+}
+
+.close__btn{
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    transition: all 0.2s ease-out;
+}
+
+.btn__div{
+    background-color: transparent;
+    border-left: 1px solid rgb(230, 230, 230);
+    padding: 0px 10px;
+}
+
+.close__btn:hover{
+    font-size: 45px;
+    transition: all 0.2s ease-out;
+}
+
+.error__message{
+    padding: 30px;
+}
+
+.success__message{
+    padding: 30px;
+}
